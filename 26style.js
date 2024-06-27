@@ -1,10 +1,12 @@
-console.log("her power project");
 
-var myVillage =`prity`
+var myVillage =`Jhenaidah`
 console.log(typeof myVillage)
 
-var myFather ="Ashik"
-console.log(myFather)
+var myNumber = 01348484884;
+console.log(typeof myNumber)
 
-var myMother ='Pervin'
-console.log(myMother)
+var boolType = true;
+console.log(boolType)
+
+var boolType = false;
+console.log(typeof boolType)
