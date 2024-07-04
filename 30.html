@@ -7,19 +7,46 @@
 
 
         <script>
-
+            // ........For Loop.......
+        //    --------valu equal(==)------
            var X;
            for (X=0 ; X<10; X=X+1){ 
             if(X==4 || X==8){
                 continue;
             }
+
+            // ------valu plus data type equal(===)----
             if(X===4){
                 break;
             }
 
 
-            document.write(X+"<button>Log in</button> <br>");
+            document.write(X+"<button>For Loop</button> <br>");
            }
+        //    .........While Loop.......
+
+           var X=0;
+
+           while(X<5){
+            document.write(X+"<button>While Loop</button> <br>");
+            X=X+1;
+           }
+
+
+        //    .......Do while Loop......
+
+        var X=0;
+
+        do{
+            document.write(X+"<button>Do While Loop</button> <br>");
+            X=X+1;
+        }
+        while(X<5);
+
+
+
+
+
            
             </script>
             
