@@ -8,29 +8,26 @@
 <body>
     
 <script>
-// .............function Return String..........
+// .............Javascript Object..........
 
-// function myMakeup(){
-//     return "fair & "
-//     document.write(myMakeup);
+var myLaptop={
+    brand:"hp",
+    display:12,
+    isLaptop:true, 
+    ram:"250 GB",
+    pocessor:"core i7",
+    isSSD:true
 
-// }
-
-// newValue=myMakeup()+" lovely";
-
-// document.write(newValue); 
-
-
-// .............Function Return Number.............
-
-
-
-function countNumber(num1,num2){
-    return num1/num2;
 }
-   newValue= countNumber(14,12)+30;
+    // document.write(myLaptop.brand);
 
-   document.write(newValue);
+    for(var item in myLaptop){
+
+        document.write(myLaptop [item]+"<br>")
+    }
+
+
+
 
 
 </script>
