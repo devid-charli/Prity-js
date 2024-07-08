@@ -8,22 +8,24 @@
 <body>
     
 <script>
-// .............Javascript Object..........
+// .............Javascript Array..........
 
-var myLaptop={
-    brand:"hp",
-    display:12,
-    isLaptop:true, 
-    ram:"250 GB",
-    pocessor:"core i7",
-    isSSD:true
+var catagory =[
+    "SNEAKER STUDIO",
+    "BRANDS",
+    "MEN",
+    "WOMEN",
+    "CHILDREN",
+    "ACCESSORIES"
 
-}
-    // document.write(myLaptop.brand);
+];
 
-    for(var item in myLaptop){
 
-        document.write(myLaptop [item]+"<br>")
+    // document.write(catagory[2]);
+    
+    for(X=0; X<catagory.length; X=X+1){
+
+        document.write(catagory [X]+"<br>");
     }
 
 
