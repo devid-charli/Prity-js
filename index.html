@@ -8,7 +8,7 @@
 <body>
     
 <script>
-// .............Javascript Array..........
+// .............Javascript Array Concat..........
 
 var catagory =[
     "SNEAKER STUDIO",
@@ -20,12 +20,28 @@ var catagory =[
 
 ];
 
+var catagory2 =[
+    "MAKEUP",
+    "SHOES",
+    "DRESS",
+    "BORKHA",
+    "TOYS",
+    "ACCESSORIES"
+
+];
+
+
+
+var catagory3=catagory2.concat(catagory);
+
+// document.write(catagory3);
+
 
     // document.write(catagory[2]);
     
-    for(X=0; X<catagory.length; X=X+1){
+    for(X=0; X<catagory3.length; X=X+1){
 
-        document.write(catagory [X]+"<br>");
+        document.write(catagory3 [X]+"<br>");
     }
 
 
