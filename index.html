@@ -8,41 +8,26 @@
 <body>
     
 <script>
-// .............Javascript Array Concat..........
+// .............Javascript Array From..........
 
-var catagory =[
-    "SNEAKER STUDIO",
-    "BRANDS",
-    "MEN",
-    "WOMEN",
-    "CHILDREN",
-    "ACCESSORIES"
-
-];
-
-var catagory2 =[
-    "MAKEUP",
-    "SHOES",
-    "DRESS",
-    "BORKHA",
-    "TOYS",
-    "ACCESSORIES"
-
-];
+var person1 = "Tom crus";
+  var person2=  Array.from(person1);
+ 
 
 
 
-var catagory3=catagory2.concat(catagory);
-
-// document.write(catagory3);
 
 
-    // document.write(catagory[2]);
+document.write(person2[1]);
+
+
+    
     
     for(X=0; X<catagory3.length; X=X+1){
 
         document.write(catagory3 [X]+"<br>");
     }
+
 
 
 
