@@ -8,27 +8,17 @@
 <body>
     
 <script>
-// .............Javascript Array From..........
+// .............Javascript Array Filter Number..........
 
-var person1 = "Tom crus";
-  var person2=  Array.from(person1);
- 
+var serialNum = [23,45,67,69,70,40];
 
+  var serialNum2=  serialNum.filter(function(item){
 
+    return item<50;
 
+  });
 
-
-document.write(person2[1]);
-
-
-    
-    
-    for(X=0; X<catagory3.length; X=X+1){
-
-        document.write(catagory3 [X]+"<br>");
-    }
-
-
+document.write(serialNum2);
 
 
 
