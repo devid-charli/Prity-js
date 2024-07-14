@@ -7,3 +7,37 @@
     box-sizing: border-box;
     font-family: "Changa", sans-serif;
 }
+
+.main-content{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.navlist{
+    display: flex;
+    background-color: rgb(98, 0, 255);
+    width: 100%;
+    height: 10hv;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navlist ul{
+    display: flex;
+    gap: 30px ;
+}
+
+.navlist li{ 
+list-style: none;
+}
+
+.navlist li a{
+    color: rgb(227, 201, 253);
+text-transform:uppercase;
+ text
+
+
+}
