@@ -19,7 +19,7 @@
 
 .navlist{
     display: flex;
-    background-color: rgb(98, 0, 255);
+    /* background-color: rgb(98, 0, 255); */
     width: 100%;
     height: 10hv;
     justify-content: center;
@@ -34,14 +34,52 @@
     justify-items: center;
 }
 
-.navlist li{ 
+
+.navlist ul li{ 
 list-style: none;
 }
 
 .navlist li a{
-    color: rgb(227, 201, 253);
+    color: whitesmoke;
 text-transform:uppercase;
  text-decoration: none;
 
 
 }
+.Left-box1, .Right-box2{
+    height: ;
+
+}
+
+
+.Left-box1{
+    background-color: black;
+    width: 70%;
+
+}
+
+.Right-box2{
+    background-color: blue;
+    width: 30%;
+
+}
+
+.icon{
+    color: aliceblue;
+}
+
+h1{
+    color: aliceblue;
+}
+
+
+h2{
+    color: aliceblue;
+}
+
+
+h3{
+    color: aliceblue;
+}
+
+
