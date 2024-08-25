@@ -1,0 +1,34 @@
+h1{
+    color: rgb(36, 35, 34);
+    background-color: rgb(228, 97, 97);
+    text-align: center;
+}
+
+p{
+ color: brown;
+ text-align: center;
+
+}
+
+h2{
+    color: rgb(10, 10, 9);
+    background-color: rgb(238, 108, 168);
+    direction: bottom;
+    text-align: center;
+}
+
+
+h3{
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+} 
+
+.pic{
+    background-image:url(dorem\ pink.jpg);
+}
+
+
+.box{
+    background-color: black;
+}
